@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('/fonts/BerkeleyMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('/fonts/BerkeleyMono-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('/fonts/BerkeleyMono-Oblique.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('/fonts/BerkeleyMono-Bold-Oblique.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Berkeley Mono', monospace;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: white; /* Light mode default */
+  color: black; /* Light mode default */
+  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.5s ease, transform 0.5s ease; /* Smooth transitions for color, background, opacity, and transform */
+  opacity: 0;
+  transform: translateY(20px); /* Initial position slightly shifted down */
+}
+
+body.loaded {
+  opacity: 1;
+  transform: translateY(0); /* Final position (no vertical shift) */
+}
+
+a {
+  color: black; /* Light mode default, overridden by media query if dark mode */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e; /* Dark mode background */
+    color: #eee; /* Dark mode text */
+  }
+  a {
+    color: #eee; /* Dark mode link color */
+  }
+  a:hover {
+    color: #87CEFA; /* Light sky blue for dark mode hover */
+  }
+  #chi:hover {
+    color: #ff6347; /* Tomato still works well in dark mode */
+  }
+  #leaf:hover {
+    color: #90EE90; /* LightGreen adjusted for dark mode */
+  }
+  #gitback:hover {
+    color: #87CEFA; /* Light sky blue for dark mode hover */
+  }
+}
+
+.container {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+pre {
+  white-space: pre-wrap;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: #63a3ff; /* Light mode default, overridden by media query if dark mode */
+}
+
+#chi:hover {
+  color: #ff6347;
+}
+
+#leaf:hover {
+  color: #32cd32;
+}
+
+#gitback:hover {
+  color: #63a3ff;
+}

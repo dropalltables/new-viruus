@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1024" height="1024"><svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1024" height="1024" fill="white"></rect>
+<path d="M214 713L322.6 305H398.8L508 713H460.6L433 610.4H287.8L260.8 713H214ZM300.4 566H421L364 347.6H357.4L300.4 566Z" fill="black"></path>
+<path d="M768.686 713V672.8H765.686C751.886 711.2 736.886 719 678.686 719C599.486 719 582.686 703.4 582.686 629C582.686 541.4 605.486 523.4 713.486 523.4H768.086V510.2C768.086 450.8 755.486 438.2 697.286 438.2C649.286 438.2 639.086 446.6 637.886 485.6H592.886C592.886 411.8 610.286 396.8 695.486 396.8C790.286 396.8 810.086 416 810.086 510.2V713H768.686ZM767.486 564.8H702.686C640.886 564.8 628.286 574.4 628.286 623.6C628.286 666.8 638.486 675.8 685.286 675.8C753.086 675.8 767.486 657.2 767.486 564.8Z" fill="black"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
