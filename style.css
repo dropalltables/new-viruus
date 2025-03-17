@@ -77,20 +77,33 @@ a {
   text-align: left;
   font-size: 1.2em;
   line-height: 1.5;
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 pre {
   white-space: pre-wrap;
   margin: 0;
-  width: 100%;
+  width: 45%;
   box-sizing: border-box;
+}
+
+#cat-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cat-container img {
+  border-radius: 15px;
+  max-width: 100%;
 }
 
 a:hover {
