@@ -109,7 +109,7 @@ pre {
 a:hover {
   color: #63a3ff; /* Light mode default, overridden by media query if dark mode */
 }
-
+/* Custom colors for projects */
 #chi:hover {
   color: #ff6347;
 }
